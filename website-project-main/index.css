@@ -1,0 +1,286 @@
+body,html{
+    background-color: rgb(193,204,214);
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 60px;
+    background-color: rgb(78,83,87);
+    display: flex;
+    position: sticky;
+    top: 0;
+    
+}
+.headerName{
+    width: 40%;
+}
+#nav-ico{
+    width: 30px;
+    display: none;
+}
+
+.header li{
+display: inline;
+margin-left: 40px;
+}
+
+
+
+#btn{
+    color: rgb(241, 236, 254);
+    font-size: 19px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
+#btn:hover{
+    border-bottom: 2px solid rgb(251, 216, 127);
+    cursor: pointer;
+}
+
+#logout{
+     color:rgb(251, 216, 127);
+     font-size: 19px;
+     font-weight: bold;
+     background-color: transparent;
+     border: none;
+}
+.main{
+    color: black;
+    display: flex;
+    margin-top: -30px;
+}
+.imagexp img{
+    width: 236px;
+    height: 369px;
+    border-radius: 69px;
+    margin-top: 80px;
+}
+.intro{
+    width: 65%;
+    text-align: center;
+    
+}
+h1{
+    color: rgb(193,204,214);  
+    margin: auto;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+#clec{
+    color:rgb(251, 216, 127)
+}
+#main-img{
+    padding-left: 130px;
+}
+.imagexp{
+    width: 35%;
+    display: flex;
+}
+#dev{
+font-size: 26px;
+}
+#hello{
+    font-size: 38px;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 200px;
+}
+.box {
+    margin-top: -40px;
+    font-size: 2em;
+    color: black;
+    font-weight: 900;
+}
+  
+#box1::after {
+    content: "am a software developer";
+    display: flex;
+    transform: rotateX(180deg);
+    color: black;
+    text-align: center;
+    margin-left: 272px;
+    opacity:0.2;
+}
+#experience
+{
+   display: flex;  
+   position: absolute;
+   bottom: 0;
+     
+}
+
+#num{
+    font-size: 50px;
+    margin-top: 13px;
+    color: rgb(78,83,87);
+}
+.xp{
+    text-align: start;
+    width: fit-content;
+    color: rgb(78,83,87);
+   
+}
+.footer{
+display: flex;
+background-color: rgb(78,83,87);
+margin-top: 15px;
+}
+#foot{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(251, 216, 127);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+/* about me page styling */
+#about{
+    margin-top: 60px;
+    padding-left: 20px;
+    display: flex;
+}
+#aboutme{
+    width:55%;
+}
+#who{
+    display: flex;
+    border-bottom: 2px solid black;
+}
+#ques{
+    color: rgb(101, 107, 112);
+    width: 35%;
+    text-align:right;
+    padding-right: 50px;
+}
+#ans{
+    color: black;
+}
+li{
+    color: black;
+    font-size: 20px;
+}
+#aboutpic{
+    border: 2px solid black;
+}
+#aboutpic img{
+ height: 300px;
+ width: 400px;
+}
+#part2{
+    display: flex; margin-top: 40px;
+}
+p{
+    color: black;
+    font-size: 23px;
+    margin-bottom: 80px;
+}
+#exper{
+    width: 35%;
+}
+#exper ul{
+    list-style-type: none;
+}
+#skills ul{
+    list-style-type: none;
+}
+#proj ul{
+    list-style-type: none;
+}
+#skills ul li{
+    margin-bottom: 5px;
+    height: 30px;
+    width: 300px; 
+}
+#proj ul li{
+    margin-bottom: 5px;
+    height: 30px;
+    width: 300px; 
+}
+#personal{
+    display: flex;
+    margin-top: 60px;
+    border-top: 0.5px solid black;
+    padding-top: 30px;
+}
+#exper ul li{
+    background-color: rgb(227,241,252);
+    margin-bottom: 5px;
+    height: 30px;
+    width: 300px;
+}
+
+
+#skills{
+    width: 30%;
+}
+#pers{
+    width: 35%;
+    margin-left: 20px;
+}
+#pic1{
+    margin-left: 65px;
+    width: 300px;
+}
+h2{
+    color: black;
+}
+
+#icon{
+    height: 30px;
+}
+.footer li{
+    display: inline;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+.contact li{
+    display: inline;
+    border-left: 1px solid black;
+    font-size: 20px;
+    margin-left: 5px;
+    
+}
+.contact ul{
+    margin-top: 5px;
+    margin-left: -40px;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.con-form{
+    width: 60%;
+}
+
+.con-form h3{
+    color: black;
+    margin-bottom: 10px;
+}
+.con-form input{
+    width: 400px;
+    border-radius: 5px;
+    height: 25px;
+}
+#con-msg{
+    border-radius: 5px;
+}
+.con-info{
+    padding: 50px;
+}
+.con-info h3{
+    color: black;
+    margin-bottom: 5px;
+}
+.con-info h5{
+    margin-top: 5px;
+    color: black;
+    font-size: 17px;
+}
+
+.headerName a{
+    text-decoration: none;
+}

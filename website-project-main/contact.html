@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\uraka\OneDrive\Desktop\website project\index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+    <title>portfolio</title>
+</head>
+<body onload="checklogg()">
+    <div class="header">
+        <div class="headerName" > <a href="./dashboard.html"><h1><span id="clec">Feza</span>  Urakaza</h1></a></div>
+        <div class="headerBtn">
+            <ul>
+                <li><a href="index.html"><img id="nav-ico" src=  "C:\Users\uraka\OneDrive\Desktop\website project\images\homepage.png" alt=""><input type="button" id="btn" value="HOME"></a> </li>
+                <li><a href="./pages/about.html"><img id="nav-ico" src="C:\Users\uraka\OneDrive\Desktop\website project\images\about.png" alt=""><input type="button" id="btn"  value="ABOUT ME"></a> </li>
+                <li><a href="./pages/contact.html"><img id="nav-ico" src="C:\Users\uraka\OneDrive\Desktop\website project\images\email.png" alt=""><input type="button" id="btn" value="CONTACT"></a></li>
+                <li><a href="./pages/blog.html"><img id="nav-ico" src="C:\Users\uraka\OneDrive\Desktop\website project\images\chat.png" alt=""><input type="button" id="btn" value="BLOG"></a></li>
+                <li><a href="./pages/login.html"><img id="nav-ico" src=  "C:\Users\uraka\OneDrive\Desktop\website project\images\homepage.png" alt=""><input type="button" id="btn" class="login" value="LOGIN"></a> </li>
+                <li><img id="nav-ico" src=  "C:\Users\uraka\OneDrive\Desktop\website project\images\homepage.png" alt=""><input type="button" onclick="logout()" id="logout" class="logout" value="LOGOUT"> </li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="con-form">
+            <h3>CONTACT ME</h3>
+            <P>I am happy to answer any questions that you have. just send a message in the form below with any questions you may have.</P>
+
+
+            <form action="/" id="form">
+               <div id="inputcontrol">
+                <h3>NAME</h3> <div class="error"></div>
+                <input type="text" name="name" id="con-name">
+               </div>
+               <div id="inputcontrol">
+                <h3>YOUR EMAIL</h3><div class="error"></div>
+                <input type="text" name="email" id="con-email">
+               </div>
+               <div id="inputcontrol">
+                <h3>SUBJECT</h3><div class="error"></div>
+                <input type="text" name="subject" id="con-subject">
+               </div>
+               <div id="inputcontrol">
+                <h3>YOUR MESSAGE</h3><div class="error"></div>
+               <textarea name="message" id="con-msg" cols="53" rows="10"></textarea>
+                <!-- <input type="text" name="message" row id="con-msg"><br> -->
+               </div>
+                <input id="send-btn"  type="submit" value="SEND">
+            </form>
+        </div>
+        <div class="con-info">
+            <h3>EMAIL:</h3>
+            <h5>urakazafeza@gmail.com</h5>
+            <h3>PHONE:</h3>
+            <h5>+48780637782</h5>
+            <h3>ON MY SOCIALS:</h3>
+            <ul><li><a href="#">twitter</a></li><li><a href="#">facebook</a></li><li><a href="#">instagram</a></li></ul>
+        </div>
+    </div>
+    <div class="footer">
+
+            <div><p id="foot">urakazafeza@gmail.com</p></div>
+            <div>
+                <ul>
+                    <li><img id="icon" src="C:\Users\uraka\OneDrive\Desktop\website project\images\twitter (1).png" alt=""></li>
+                    <li><img id="icon" src="C:\Users\uraka\OneDrive\Desktop\website project\images\linkedin.png" alt=""></li>
+                    <li><img id="icon" src="C:\Users\uraka\OneDrive\Desktop\website project\images\instagram.png" alt=""></li>
+                    <li><img id="icon" src="C:\Users\uraka\OneDrive\Desktop\website project\images\github.png" alt=""></li>
+                    <li><img id="icon" src="C:\Users\uraka\OneDrive\Desktop\website project\images\facebook.png" alt=""></li>
+                </ul>
+            </div>
+            <div ><p style="margin-left:60px" id="foot">+48780637782</p></div>
+        </div>
+    
+        <script src="C:\Users\uraka\OneDrive\Desktop\website project\index.js"></script>
+</body>
+</html>
